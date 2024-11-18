@@ -222,6 +222,7 @@ header {
   padding: 120px var(--padding-inline-section) 80px;
 }
 .cta-container {
+  display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
@@ -231,6 +232,31 @@ header {
   color: white;
   margin-top: 30px;
 }
+
+.link-to-column{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer{
+  background-color: #ebf2fa;
+  padding-block: 80px;
+}
+.container{
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.01rem;
+}
+
 .spacer {
-  min-height: 0;
+  min-height: 50vh;
+}
+.subfooter{
+background-color: #889199;
+}
+.sub-footer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
