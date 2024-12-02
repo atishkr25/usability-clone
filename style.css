@@ -260,3 +260,9 @@ background-color: #889199;
   align-items: center;
   gap: 20px;
 }
+.sub-footer-container a{
+  color: rgb(40, 61, 65);
+}
+.sub-footer-container a:hover{
+  color: #1d69a3;
+}
